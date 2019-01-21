@@ -12,7 +12,7 @@ class Profile extends Component {
 		return (
 			<Box p={3}>
 				<Head>
-					<title>Basiq Zerodev | Profile</title>
+					<title>Spruce React Starter | Profile</title>
 				</Head>
 				<Flex wrap mx={-3}>
 					<Anime

@@ -7,10 +7,10 @@ class Nav extends Component {
 		return (
 			<Flex p={3} align="center" color="white" bg="blue">
 				<Text bold mx={2}>
-					Hello
+					Navigation
 				</Text>
 				<Text ml="auto" mr={2}>
-					<a onClick={this.props.showLoginMenu}>LOGIN</a>
+					LOGIN
 				</Text>
 			</Flex>
 		)

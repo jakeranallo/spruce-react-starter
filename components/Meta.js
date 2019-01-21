@@ -15,7 +15,7 @@ const Meta = () => (
 		<link rel="stylesheet" type="text/css" href="../static/styles/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="../static/styles/global.css" />
 		<link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet"></link>
-		<title>Basiq Zerodev</title>
+		<title>Spruce React Starter</title>
 	</Head>
 )
 
