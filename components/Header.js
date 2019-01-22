@@ -6,11 +6,9 @@ import Nav from './Nav'
 
 Router.onRouteChangeStart = () => {
 	NProgress.start()
-	console.log('started')
 }
 Router.onRouteChangeComplete = () => {
 	NProgress.done()
-	console.log('complete')
 }
 Router.onRouteChangeError = () => {
 	NProgress.done()
@@ -19,9 +17,7 @@ Router.onRouteChangeError = () => {
 class Header extends Component {
 	render() {
 		return (
-			<>
 				<Nav />
-			</>
 		)
 	}
 }

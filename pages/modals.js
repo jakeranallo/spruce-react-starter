@@ -7,7 +7,7 @@ import { Modal1, Modal2 } from '../components/modal/Modal'
 import { ModalConsumer } from '../components/modal/ModalContext'
 
 const Modals = () => (
-    <>
+	<>
 		<ModalRoot />
 		<ModalConsumer>
 			{({ showModal }) => (
@@ -21,7 +21,7 @@ const Modals = () => (
 				</Box>
 			)}
 		</ModalConsumer>
-        </>
+	</>
 )
 
 export default Modals
