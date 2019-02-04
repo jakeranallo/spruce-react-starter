@@ -3,9 +3,10 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Anime from 'react-anime'
 
-import Button from '../components/Button'
+import Counter from '../components/Counter'
 import Box from '../components/Box'
 import Flex from '../components/Flex'
+import UserList from '../components/UserList'
 
 class Profile extends Component {
 	render() {
@@ -20,22 +21,8 @@ class Profile extends Component {
 						translateY={'1em'}
 						delay={(el, index) => index * 100}
 					>
-						<Box width={[1, 1 / 2]} px={3} mb={4}>
-							<p>This is the profile page.</p>
-							<Link href="/">
-								<Button size="large" mr={2}>
-									Link
-								</Button>
-							</Link>
-						</Box>
-						<Box width={[1, 1 / 2]} px={3} mb={4}>
-							<p>This is the profile page.</p>
-							<Link href="/">
-								<Button size="large" mr={2}>
-									Link
-								</Button>
-							</Link>
-						</Box>
+						<UserList />
+						<Counter />
 					</Anime>
 				</Flex>
 			</Box>

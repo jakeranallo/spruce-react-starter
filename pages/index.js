@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Anime from 'react-anime'
+import Lottie from 'lottie-react-web'
 
 import Button from '../components/Button'
 import Box from '../components/Box'
@@ -13,7 +14,7 @@ import Tooltip from '../components/Tooltip'
 import Label from '../components/Label'
 import Select from '../components/Select'
 import Icon from '../components/Icon'
-import Lottie from 'lottie-react-web'
+
 import listening from '../components/animation/listening.json'
 
 class Index extends React.Component {

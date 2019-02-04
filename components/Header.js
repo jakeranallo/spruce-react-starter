@@ -16,9 +16,7 @@ Router.onRouteChangeError = () => {
 
 class Header extends Component {
 	render() {
-		return (
-				<Nav />
-		)
+		return <Nav />
 	}
 }
 
