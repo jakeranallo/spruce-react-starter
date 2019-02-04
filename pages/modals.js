@@ -1,4 +1,5 @@
 import React from 'react'
+import Head from 'next/head'
 
 import Button from '../components/Button'
 import Box from '../components/Box'
@@ -8,6 +9,9 @@ import { ModalConsumer } from '../components/modal/ModalContext'
 
 const Modals = () => (
 	<>
+		<Head>
+			<title>Spruce React Starter | Modals</title>
+		</Head>
 		<ModalRoot />
 		<ModalConsumer>
 			{({ showModal }) => (
